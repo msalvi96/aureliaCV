@@ -60,8 +60,8 @@
     "defaults"
   ],
   "scripts": {
-    "build": "webpack --env.production --extractCss",
-    "start": "webpack-dev-server --extractCss",
+    "build": "au build",
+    "start": "au run",
     "build:dev": "webpack --extractCss",
     "analyze": "webpack --env.production --analyze",
     "test": "au test"
